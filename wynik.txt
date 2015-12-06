@@ -1,0 +1,19 @@
+1)
+a) wynik:
+Jestem z klasy bazowej
+Jestem z klasy pochodnej
+Jestem z klasy bazowej
+Jeœli ¿adna z metod nie ma deklaracji virtual, metoda klasy pochodnej przes³ania metodê klasy bazowej.
+b) wynik:
+Jestem z klasy bazowej
+Jestem z klasy pochodnej
+Jestem z klasy pochodnej
+Jeœli metoda w klasie bazowej ma deklaracjê virtual, a w klasie pochodnej override, metoda klasy bazowej przes³ania metodê kalsy pochodnej.
+c) 
+Jeœli metoda w klasie bazowej ma deklaracjê final oraz virtual, a w klasie pochodnej nie ma zadnej deklaracji, to program siê nie kompiluje.
+Final jest ograniczeniem, oznacza to tyle, ¿e nie mo¿a wywo³aæ metody klasy bazowej w klasie pochodnej, poniewa¿ dziedziczenie zosta³o zabronione.
+2)
+Szablony funkcji jak siê okaza³o w trakcie realizacji mojego programu s¹ bardzo przydatne.
+Dziêki nim nie muszê sztywno deklarowaæ typów moich zmiennych, mogê to zrobiæ dopiero podczas wprowadzania ich w moim kodzie. 
+Wywo³uj¹c tê sam¹ metodê mogê wywo³ywaæ j¹ z argumentami ró¿nych typów bez ¿adnych komplikacji.
+Mój program jako przyk³ad daje dzia³ania dodawania i modulo.
